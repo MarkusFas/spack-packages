@@ -33,6 +33,6 @@ class LibmetatomicTorch(CMakePackage):
     depends_on("cxx", type="build")
     depends_on("c", type="build")
     depends_on("libmetatensor-torch@0.8.0:0.8", when="@0.1.4:")
-    depends_on("libmetatensor-torch@0.7.6:0.7", when="@0.1.3")
+    depends_on("libmetatensor-torch@0.9.1", when="@0.1.13")
     depends_on("py-torch@2.3.0:", when="@0.1.9:")
     depends_on("py-torch@2.1.0:")
